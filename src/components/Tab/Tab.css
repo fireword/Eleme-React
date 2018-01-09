@@ -1,0 +1,38 @@
+.shop-tab {
+  height: 1rem;
+  height: 10vw;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+.shop-tab ul {
+  height: 1rem;
+  height: 10vw;
+  line-height: 1rem;
+  line-height: 10vw;
+  display: table;
+  width: 100%;
+}
+.shop-tab ul li {
+  display: table-cell;
+  text-align: center;
+  color: #666;
+  font-size: 0.373333rem;
+}
+.shop-tab ul li.on {
+  color: #333;
+  font-weight: 700;
+}
+.shop-tab ul li.on span {
+  position: relative;
+}
+.shop-tab ul li.on span:after {
+  content: "";
+  position: absolute;
+  bottom: -0.28rem;
+  bottom: -2.8vw;
+  left: 0;
+  right: 0;
+  height: 0.053333rem;
+  height: 0.533333vw;
+  background-color: #2395ff;
+}

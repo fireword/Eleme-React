@@ -1,0 +1,24 @@
+.star {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.star .star-img {
+  width: 1.493333333333333rem;
+  width: 14.933333333333334vw;
+  height: 0.266666666666667rem;
+  height: 2.666666666666667vw;
+}
+.star .star-gray {
+  width: 100%;
+  height: 100%;
+}
+.star .star-color {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: 2;
+}

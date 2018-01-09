@@ -1,0 +1,178 @@
+{
+  "activities": [
+    {
+      "attribute": "{\"30\": {\"1\": 18.0, \"0\": 0}, \"55\": {\"1\": 30.0, \"0\": 0}}",
+      "description": "满30减18，满55减30",
+      "icon_color": "f07373",
+      "icon_name": "满减",
+      "id": 282326690,
+      "is_exclusive_with_food_activity": true,
+      "name": "满减活动",
+      "tips": "满30减18，满55减30",
+      "type": 102
+    },
+    {
+      "description": "周年庆",
+      "icon_color": "f07373",
+      "icon_name": "折扣",
+      "id": 268481098,
+      "name": "周年庆",
+      "tips": "周年庆"
+    },
+    {
+      "attribute": "17.0",
+      "description": "新用户下单立减17元(不与其它活动同享)",
+      "icon_color": "70bc46",
+      "icon_name": "首单",
+      "id": 769414009,
+      "is_exclusive_with_food_activity": true,
+      "name": "新用户立减(不与其他活动共享)",
+      "tips": "新用户下单立减17元(不与其它活动同享)",
+      "type": 103
+    },
+    {
+      "description": "周年庆",
+      "icon_color": "f1884f",
+      "icon_name": "特价",
+      "id": 268463986,
+      "name": "周年庆",
+      "tips": "周年庆"
+    },
+    {
+      "description": "周年庆",
+      "icon_color": "f1884f",
+      "icon_name": "特价",
+      "id": 268463130,
+      "name": "周年庆",
+      "tips": "周年庆"
+    },
+    {
+      "description": "周年庆",
+      "icon_color": "f1884f",
+      "icon_name": "特价",
+      "id": 268462666,
+      "name": "周年庆",
+      "tips": "周年庆"
+    },
+    {
+      "description": "周年庆",
+      "icon_color": "f1884f",
+      "icon_name": "特价",
+      "id": 268446658,
+      "name": "周年庆",
+      "tips": "周年庆"
+    },
+    {
+      "description": "饿了么5折专属套餐",
+      "icon_color": "f07373",
+      "icon_name": "折扣",
+      "id": 263666090,
+      "name": "饿了么5折专属套餐",
+      "tips": "饿了么5折专属套餐"
+    }
+  ],
+  "address": "武汉东湖新技术开发区南湖大道116号南湖时尚城K10栋15号",
+  "albums": [
+    {
+      "count": 1,
+      "cover_image_hash": "fc47672d25d7d165765559cef19fe8d5jpeg",
+      "name": "门面",
+      "photos": [
+        {
+          "description": "门头照",
+          "id": 6276666,
+          "image_hash": "fc47672d25d7d165765559cef19fe8d5jpeg",
+          "type": "FRONT"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "cover_image_hash": "93dd9d983f9e070b1654229574b73127jpeg",
+      "name": "大堂",
+      "photos": [
+        {
+          "description": "店内照",
+          "id": 6276667,
+          "image_hash": "93dd9d983f9e070b1654229574b73127jpeg",
+          "type": "HALL"
+        }
+      ]
+    }
+  ],
+  "authentic_id": 7312280762201701,
+  "delivery_mode": {
+    "border": "",
+    "color": "2395FF",
+    "gradient": {
+      "rgb_from": "00AAFF",
+      "rgb_to": "0085FF"
+    },
+    "id": 1,
+    "is_solid": true,
+    "text": "蜂鸟专送",
+    "text_color": "FFFFFF"
+  },
+  "description": "",
+  "distance": 284,
+  "favored": false,
+  "float_delivery_fee": 4,
+  "float_minimum_order_amount": 20,
+  "id": 151696401,
+  "image_path": "dde8eb512bbf03faaf4266f4896dde4ajpeg",
+  "is_new": false,
+  "is_premium": true,
+  "is_stock_empty": 0,
+  "is_valid": 1,
+  "latitude": 30.4768495004714,
+  "longitude": 114.386686883714,
+  "max_applied_quantity_per_order": 6,
+  "name": "华莱士（南湖时尚城店）",
+  "next_business_time": "",
+  "only_use_poi": false,
+  "opening_hours": [
+    "10:00/22:00"
+  ],
+  "order_lead_time": 50,
+  "phone": "15623136496",
+  "piecewise_agent_fee": {
+    "description": "配送费¥4",
+    "extra_fee": 0,
+    "is_extra": false,
+    "rules": [
+      {
+        "fee": 4,
+        "price": 20
+      }
+    ],
+    "tips": "配送费¥4"
+  },
+  "promotion_info": "\n华莱士陪伴您每一天，愿您开心每一天。",
+  "qualification": {
+    "link": "https://h5.ele.me/shop/certification/#/?restaurant_id=7312280762201701\u0026realId=151696401"
+  },
+  "rating": 4.7,
+  "rating_count": 511,
+  "recent_order_num": 801,
+  "recommend": {
+    "color": "#e8470b",
+    "image_hash": "ac124c767ffa7fd296d3e2d6f01798c6png",
+    "is_ad": false,
+    "reason": "口碑人气好店"
+  },
+  "regular_customer_count": 0,
+  "scheme": "eleme://catering?restaurant_id=151696401",
+  "shop_sign": {
+    "brand_story": "",
+    "image_hash": ""
+  },
+  "status": 1,
+  "supports": [],
+  "type": 0,
+  "weight": {
+    "basic": 20000,
+    "maximum": 20000,
+    "unit": 20000,
+    "unit_fee": 20000
+  }
+}

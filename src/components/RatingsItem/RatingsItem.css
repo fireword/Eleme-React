@@ -1,0 +1,91 @@
+.ratings-list-item {
+  padding: 0.4rem 0;
+  padding: 4vw 0;
+  display: flex;
+  position: relative;
+}
+.ratings-list-item:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  border-bottom: 1px solid #ddd;
+  transform: scaleY(0.5);
+}
+.ratings-list-item .rat-avatar {
+  width: 0.8rem;
+  width: 8vw;
+  height: 0.8rem;
+  height: 8vw;
+}
+.ratings-list-item .rat-avatar img {
+  width: 0.8rem;
+  width: 8vw;
+  height: 0.8rem;
+  height: 8vw;
+  border-radius: 50%;
+}
+.ratings-list-item .rat-detail {
+  flex: 1;
+  margin-left: 0.4rem;
+  margin-left: 4vw;
+  font-size: 0.346667rem;
+}
+.ratings-list-item .rat-detail .rat-name {
+  display: flex;
+  align-items: center;
+  font-size: 0.346667rem;
+  margin-top: 0;
+  color: #333;
+}
+.ratings-list-item .rat-detail .rat-name span {
+  font-size: 0.293333rem;
+  color: #bbb;
+  margin-left: 0.16rem;
+  margin-left: 1.6vw;
+}
+.ratings-list-item .rat-detail .rat-star .rat-star-wrapper {
+  display: inline-block;
+}
+.ratings-list-item .rat-detail .rat-star span {
+  font-size: 0.266667rem;
+  color: #999;
+  vertical-align: middle;
+}
+.ratings-list-item .rat-detail .rat-msg {
+  color: #333;
+  font-size: 0.373333rem;
+  margin: 0.213333rem 0;
+  margin: 2.133333vw 0;
+}
+.ratings-list-item .rat-detail .rat-pic .rat-pic-item {
+  display: inline-block;
+  margin: 0.133333rem;
+  margin: 1.333333vw;
+}
+.ratings-list-item .rat-detail .rat-pic .rat-pic-item img {
+  width: 1.893333rem;
+  width: 18.933333vw;
+  height: 1.893333rem;
+  height: 18.933333vw;
+}
+.ratings-list-item .rat-detail .rat-tags .rat-tag {
+  display: inline-block;
+  font-size: 0.293333rem;
+  color: #6d7885;
+  border: 1px solid #eee;
+  padding: 0.106667rem 0.266667rem;
+  padding: 1.066667vw 2.666667vw;
+  margin: 0.093333rem;
+  margin: 0.933333vw;
+  border-radius: 0.053333rem;
+  border-radius: 0.533333vw;
+  max-width: 1.6rem;
+  max-width: 16vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: content-box;
+}

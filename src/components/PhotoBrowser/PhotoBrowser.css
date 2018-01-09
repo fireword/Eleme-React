@@ -1,0 +1,64 @@
+.photo-browser {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 101;
+  display: none;
+}
+.photo-browser.fade-entered {
+  display: block;
+}
+.photo-browser .photo-browser-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+.photo-browser .photo-browser-mask.fade-entered {
+  opacity: 1;
+}
+.photo-browser .photo-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.893333rem;
+  width: 18.933333vw;
+  height: 1.893333rem;
+  height: 18.933333vw;
+  background: transparent;
+  -webkit-transition: all 0.32s;
+  transition: all 0.32s;
+}
+.photo-browser .photo-content.fade-entered {
+  top: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+.photo-browser .photo-content img {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.photo-browser .photo-browser-title {
+  position: absolute;
+  bottom: 0.466667rem;
+  bottom: 4.666667vw;
+  left: 0.266667rem;
+  left: 2.666667vw;
+  font-size: 0.266667rem;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+.photo-browser .photo-browser-title.fade-entered {
+  opacity: 1;
+}

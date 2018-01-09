@@ -1,0 +1,37 @@
+.food-opt .opt-minus {
+  display: inline-block;
+  padding: 0.093333rem;
+  padding: 0.933333vw;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.food-opt .opt-minus svg {
+  vertical-align: middle;
+  fill: #2395ff;
+  width: 0.533333333333333rem;
+  height: 0.533333333333333rem;
+}
+.food-opt .opt-num {
+  display: inline-block;
+  text-align: center;
+  color: #666;
+  vertical-align: middle;
+  font-size: 0.373333rem;
+  min-width: 0.4rem;
+  min-width: 4vw;
+  max-width: 2em;
+  overflow: hidden;
+}
+.food-opt .opt-add {
+  display: inline-block;
+  padding: 0.093333rem;
+  padding: 0.933333vw;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.food-opt .opt-add svg {
+  vertical-align: middle;
+  fill: #2395ff;
+  width: 0.533333333333333rem;
+  height: 0.533333333333333rem;
+}

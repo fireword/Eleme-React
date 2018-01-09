@@ -1,0 +1,33 @@
+.shop-detail-menu
+	height 100%
+	padding-bottom 1.28rem;
+	padding-bottom 12.8vw;
+	.menu-inner
+		display flex
+		height 100%
+.bounce-ball
+	position fixed
+	z-index 100
+	left: (54/75)rem;
+	left: (54/7.5)vw;
+	bottom: (45/75)rem;
+	bottom: (45/7.5)vw;
+	opacity 0
+	.ball-inner
+		background: #2395ff;
+		width: 0.533333333333333rem;
+		height: 0.533333333333333rem;
+		border-radius 50%;
+	&.bounce-entered
+		transition: all .4s cubic-bezier(.31,-0.35,.99,.09);
+		.ball-inner
+			transition: all .4s linear;
+	//&.bounce-entering
+	//	transform translate3d(0,200px,0)
+	//	.ball-inner
+	//		transform translate3d(200px,0,0)
+	//&.bounce-entered
+	//	transform translate3d(0,0,0)
+	//	.ball-inner
+	//		transform translate3d(0,0,0)
+			

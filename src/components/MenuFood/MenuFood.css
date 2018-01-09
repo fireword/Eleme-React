@@ -1,0 +1,183 @@
+.food-list li {
+  display: flex;
+  padding: 0.266667rem 0.266667rem 0.8rem 0;
+  padding: 2.666667vw 2.666667vw 8vw 0;
+  margin-bottom: 1px;
+  position: relative;
+}
+.food-list li:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  border-bottom: 1px solid #eee;
+  transform: scaleY(0.5);
+}
+.food-list li .food-avatar {
+  width: 2.026667rem;
+  width: 20.266667vw;
+  height: 2.026667rem;
+  height: 20.266667vw;
+  flex: none;
+  margin-right: 0.266667rem;
+  margin-right: 2.666667vw;
+  position: relative;
+}
+.food-list li .food-avatar .attr-tag {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: transparent;
+}
+.food-list li .food-avatar .attr-tag:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  padding: 0.053333rem 0.133333rem;
+  padding: 0.533333vw 1.333333vw;
+  border-radius: 0.053333rem;
+  border-radius: 0.533333vw;
+  content: attr(content);
+  font-size: 0.533333rem;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(135deg, #ffae1b, #f57751);
+  white-space: nowrap;
+}
+.food-list li .food-avatar img {
+  width: 100%;
+  border-radius: 0.053333rem;
+  border-radius: 0.533333vw;
+}
+.food-list li .food-detail {
+  flex-grow: 1;
+  position: relative;
+  padding-bottom: 0.666667rem;
+  padding-bottom: 6.666667vw;
+}
+.food-list li .food-detail .food-title {
+  font-size: 0.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding-right: 0.533333rem;
+  padding-right: 5.333333vw;
+  word-break: break-word;
+}
+.food-list li .food-detail .food-description {
+  margin: 0.133333rem 0 !important;
+  margin: 1.333333vw 0 !important;
+  font-size: 0.253333rem;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 4.8rem;
+  width: 48vw;
+}
+.food-list li .food-detail .food-intro {
+  margin: 0.173333rem 0 !important;
+  margin: 1.733333vw 0 !important;
+  color: #666;
+  font-size: 0.293333rem;
+  line-height: 1;
+}
+.food-list li .food-detail .food-discount .num {
+  height: 0.346667rem;
+  height: 3.466667vw;
+  font-size: 0.266667rem;
+  color: transparent;
+  white-space: nowrap;
+  position: relative;
+  padding: 0 0.08rem;
+  padding: 0 0.8vw;
+}
+.food-list li .food-detail .food-discount .num:after {
+  content: attr(content);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  font-size: 0.533333rem;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  background-image: linear-gradient(90deg, #ff7416, #ff3c15 98%);
+  border-radius: 0.013333rem;
+  border-radius: 0.133333vw;
+  white-space: nowrap;
+  height: 200%;
+  padding: 0 0.16rem;
+  padding: 0 1.6vw;
+}
+.food-list li .food-detail .food-discount .txt {
+  height: 0.346667rem;
+  height: 3.466667vw;
+  font-size: 0.266667rem;
+  color: transparent;
+  white-space: nowrap;
+  position: relative;
+}
+.food-list li .food-detail .food-discount .txt:after {
+  content: attr(content);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.533333rem;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  color: #f07373;
+  border: 1px solid #ff3c15;
+  border-left: none;
+  white-space: nowrap;
+  height: 200%;
+  padding: 0 0.16rem;
+  padding: 0 1.6vw;
+}
+.food-list li .food-detail .food-price {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: baseline;
+}
+.food-list li .food-detail .food-price .new-price {
+  margin-right: 0.106667rem;
+  margin-right: 1.066667vw;
+  font-weight: 700;
+  font-size: 0.426667rem;
+  line-height: 0.426667rem;
+  line-height: 4.266667vw;
+  color: #f60;
+}
+.food-list li .food-detail .food-price .new-price:before {
+  font-weight: 400;
+  content: "\A5";
+  font-size: 0.32rem;
+  margin-right: 0.053333rem;
+  margin-right: 0.533333vw;
+  display: inline-block;
+}
+.food-list li .food-detail .food-price .old-price {
+  font-size: 0.32rem;
+  color: #666;
+  font-weight: 400;
+  vertical-align: top;
+  text-decoration: line-through;
+}
+.food-list li .food-detail .food-opt-wrapper {
+  position: absolute;
+  right: 0;
+  bottom: -0.066667rem;
+  bottom: -0.666667vw;
+}

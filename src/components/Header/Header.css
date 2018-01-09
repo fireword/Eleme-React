@@ -1,0 +1,183 @@
+.shop-detail-header {
+  padding-bottom: 0.5rem;
+  padding-bottom: 5vw;
+  background-color: #fff;
+}
+.shop-detail-header .shop-detail-back {
+  background: #715e52;
+  padding: 0.106667rem 0.266667rem;
+  padding: 1.066667vw 2.666667vw;
+  height: 1.6rem;
+  height: 16vw;
+  display: flex;
+  align-items: justify;
+  position: relative;
+}
+.shop-detail-header .shop-detail-back a svg {
+  width: 0.666667rem;
+  width: 6.666667vw;
+  height: 0.666667rem;
+  height: 6.666667vw;
+}
+.shop-detail-header .detail-main {
+  padding: 0.8rem 0.4rem 0;
+  padding: 8vw 4vw 0;
+  position: relative;
+  text-align: center;
+}
+.shop-detail-header .detail-main .shop-avatar {
+  width: 1.733333rem;
+  width: 17.333333vw;
+  height: 1.733333rem;
+  height: 17.333333vw;
+  border-radius: 0.053333rem;
+  border-radius: 0.533333vw;
+  box-shadow: 0 0 0.4vw 0 rgba(0,0,0,0.2);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1rem;
+  margin-left: -10vw;
+  margin-top: -1.2rem;
+  margin-top: -12vw;
+}
+.shop-detail-header .detail-main .shop-avatar img {
+  width: 1.733333rem;
+  width: 17.333333vw;
+  height: 1.733333rem;
+  height: 17.333333vw;
+}
+.shop-detail-header .detail-main .shop-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop-detail-header .detail-main .shop-name span {
+  border-radius: 0.026667rem;
+  border-radius: 0.266667vw;
+  background-image: linear-gradient(90deg, #fff100, #ffe339);
+  color: #6a3709;
+  font-style: normal;
+  padding: 0.08rem;
+  padding: 0.8vw;
+  font-weight: 700;
+  font-size: 0.32rem;
+  line-height: 0.32rem;
+  line-height: 3.2vw;
+  display: inline-block;
+  margin-right: 0.16rem;
+  margin-right: 1.6vw;
+}
+.shop-detail-header .detail-main .shop-name h1 {
+  font-size: 0.546667rem;
+  line-height: 1.2em;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.shop-detail-header .detail-main .shop-name i {
+  width: 0.4rem;
+  width: 4vw;
+  position: relative;
+  height: 0.653333rem;
+  height: 6.533333vw;
+}
+.shop-detail-header .detail-main .shop-name i:after {
+  content: "";
+  border-style: solid;
+  border-width: 0.146667rem 0 0.146667rem 0.173333rem;
+  border-width: 1.466667vw 0 1.466667vw 1.733333vw;
+  border-color: transparent transparent transparent rgba(0,0,0,0.67);
+  position: absolute;
+  left: 0.16rem;
+  left: 1.6vw;
+  top: 0.213333rem;
+  top: 2.133333vw;
+}
+.shop-detail-header .detail-main .shop-info {
+  white-space: nowrap;
+  height: 0.32rem;
+  height: 3.2vw;
+  margin-top: 0.173333rem;
+  margin-top: 1.733333vw;
+  font-size: 0.293333rem;
+  color: #333;
+}
+.shop-detail-header .detail-main .shop-info span:after {
+  content: " \B7 ";
+  opacity: 0.2;
+}
+.shop-detail-header .detail-main .shop-info span:last-child:after {
+  content: '';
+}
+.shop-detail-header .detail-main .shop-notice {
+  width: 5.813333rem;
+  width: 58.133333vw;
+  font-size: 0.293333rem;
+  font-weight: 300;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0.226667rem auto 0.266667rem;
+  margin: 2.266667vw auto 2.666667vw;
+  padding: 0;
+  white-space: nowrap;
+}
+.shop-detail-header .detail-main .shop-activity {
+  display: flex;
+  border-radius: 1px;
+  border: 1px solid #eee;
+  padding: 0.133333rem 0.213333rem;
+  padding: 1.333333vw 2.133333vw;
+  font-size: 0.293333rem;
+  color: #666;
+  margin: 0 0.64rem;
+  margin: 0 6.4vw;
+  align-items: center;
+}
+.shop-detail-header .detail-main .shop-activity .act-icon {
+  margin-right: 0.16rem;
+  margin-right: 1.6vw;
+  font-size: 0.24rem;
+  font-style: normal;
+  padding: 0.053333rem 0.12rem;
+  padding: 0.533333vw 1.2vw;
+  line-height: 0.346667rem;
+  line-height: 3.466667vw;
+  height: 0.346667rem;
+  height: 3.466667vw;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0.026667rem;
+  border-radius: 0.266667vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.shop-detail-header .detail-main .shop-activity .act-txt {
+  flex: 1;
+  text-align: left;
+}
+.shop-detail-header .detail-main .shop-activity .act-total {
+  position: relative;
+  padding-right: 0.293333rem;
+  padding-right: 2.933333vw;
+  text-align: right;
+}
+.shop-detail-header .detail-main .shop-activity .act-total:after {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 0.106667rem 0.093333rem 0;
+  border-width: 1.066667vw 0.933333vw 0;
+  border-color: rgba(0,0,0,0.57) transparent transparent;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+}

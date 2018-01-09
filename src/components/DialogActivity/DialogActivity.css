@@ -1,0 +1,149 @@
+.dialog-activity {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 52;
+  flex-direction: column;
+}
+.dialog-activity .dialog-activity-mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  animation-duration: 200ms;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+.dialog-activity .dialog-activity-content {
+  position: absolute;
+  background-color: #f5f5f5;
+  box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.4);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 0.533333rem 0.693333rem;
+  padding: 5.333333vw 6.933333vw;
+  animation-duration: 200ms;
+  animation-fill-mode: both;
+  animation-name: slideInUp;
+}
+.dialog-activity .dialog-activity-content .activity-title {
+  text-align: center;
+  font-size: 0.453333rem;
+  font-weight: 600;
+  margin-bottom: 0.413333rem;
+  margin-bottom: 4.133333vw;
+}
+.dialog-activity .dialog-activity-content .activity-main {
+  height: 5.08rem;
+  height: 50.8vw;
+  overflow-y: scroll;
+}
+.dialog-activity .dialog-activity-content .activity-main ul li {
+  display: flex;
+  margin-bottom: 0.306667rem;
+  margin-bottom: 3.066667vw;
+}
+.dialog-activity .dialog-activity-content .activity-main ul li span {
+  height: 0.426667rem;
+  height: 4.266667vw;
+  line-height: 0.426667rem;
+  line-height: 4.266667vw;
+  font-size: 0.32rem;
+  padding: 0 0.16rem;
+  padding: 0 1.6vw;
+  margin-right: 0.16rem;
+  margin-right: 1.6vw;
+  color: #fff;
+}
+.dialog-activity .dialog-activity-content .activity-main ul li p {
+  font-size: 0.346667rem;
+  line-height: 1.38;
+}
+.dialog-activity .dialog-activity-close {
+  position: absolute;
+  height: 0.64rem;
+  height: 6.4vw;
+  width: 0.64rem;
+  width: 6.4vw;
+  right: 0.266667rem;
+  right: 2.666667vw;
+  top: 0.266667rem;
+  top: 2.666667vw;
+}
+.dialog-activity .dialog-activity-close svg {
+  height: 100%;
+  width: 100%;
+}
+@-moz-keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-webkit-keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-o-keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

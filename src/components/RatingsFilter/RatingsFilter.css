@@ -1,0 +1,45 @@
+.ratings-filter {
+  background-color: #fff;
+  padding: 0.266667rem 0.32rem 0;
+  padding: 2.666667vw 3.2vw 0;
+  font-size: 0.36rem;
+}
+.ratings-filter .filter-wrapper {
+  padding-bottom: 0.266667rem;
+  padding-bottom: 2.666667vw;
+  position: relative;
+}
+.ratings-filter .filter-wrapper:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  border-bottom: 1px solid #ddd;
+  transform: scaleY(0.5);
+}
+.ratings-filter .filter-wrapper .filter-item {
+  display: inline-block;
+  padding: 0 0.24rem;
+  padding: 0 2.4vw;
+  height: 0.746667rem;
+  height: 7.466667vw;
+  line-height: 0.746667rem;
+  line-height: 7.466667vw;
+  margin: 0.093333rem;
+  margin: 0.933333vw;
+  font-size: 0.32rem;
+  border-radius: 0.053333rem;
+  border-radius: 0.533333vw;
+  color: #6d7885;
+  background-color: #ebf5ff;
+}
+.ratings-filter .filter-wrapper .filter-item.on {
+  color: #fff;
+  background-color: #0097ff;
+}
+.ratings-filter .filter-wrapper .filter-item.off {
+  color: #aaa;
+  background-color: #f5f5f5;
+}

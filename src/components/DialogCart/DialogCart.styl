@@ -1,0 +1,154 @@
+.dialog-cart
+	.dialog-cart-mask
+		position fixed
+		z-index: 48;
+		top 0
+		right 0
+		bottom 0
+		left 0
+		background-color: rgba(0,0,0,.4);
+		opacity 0
+		display none
+		transition opacity .3s ease
+		&.fade-entered
+			display block
+			opacity 1
+		&.fade-exiting
+			opacity .5
+		&.fade-exited
+			opacity 0
+			//display none
+	.dialog-cart-content
+		position: fixed;
+		background-color: #f5f5f5;
+		box-shadow: 0 -1px 5px 0 rgba(0,0,0,.4);
+		bottom: (96/75)rem;
+		bottom: (96/7.5)vw;
+		left: 0;
+		right: 0;
+		z-index: 49;
+		font-size: .426667rem;
+		transition transform .2s ease
+		transform translate3d(0,100%,0)
+		&.fade-entered
+			transform translateZ(0)
+		.discount-tip
+			background-color: #fffad6;
+			border-top: 1px solid #f9e8a3;
+			opacity: .96;
+			height: .533333rem;
+			height: 5.333333vw;
+			line-height: .533333rem;
+			line-height: 5.333333vw;
+			font-size: .266667rem;
+			text-align: center;
+			position absolute
+			left 0
+			width 100%
+			top -.533333rem;
+			top -5.33333vw;
+			span
+				color #ff461d
+		.cart-title
+			padding: 0 .333333rem;
+			padding: 0 3.333333vw;
+			border-bottom: 1px solid #ddd;
+			background-color: #eceff1;
+			color: #666;
+			height: 1.066667rem;
+			height: 10.666667vw;
+			display flex
+			align-items center
+			opacity 0
+			&.fade-entered
+				opacity 1
+			p
+				flex 1
+				padding-left: .133333rem;
+				padding-left: 1.333333vw;
+				border-left: .093333rem solid #2395ff;
+				border-left: .933333vw solid #2395ff;
+			.cart-clear
+				-webkit-box-flex: 0;
+				-webkit-flex: none;
+				-ms-flex: none;
+				flex: none;
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-align: center;
+				-webkit-align-items: center;
+				-ms-flex-align: center;
+				align-items: center;
+				padding-left: .4rem;
+				padding-left: 4vw;
+				color: #666;
+				text-decoration: none;
+				font-size: .346667rem;
+				svg
+					width: .306667rem;
+					width: 3.066667vw;
+					height: .346667rem;
+					height: 3.466667vw;
+					fill: #ddd;
+					margin-right: .08rem;
+					margin-right: .8vw;
+		.cart-main
+			overflow: auto;
+			-webkit-overflow-scrolling: touch;
+			max-height: 8rem;
+			max-height: 80vw;
+			ul
+				li
+					display: -webkit-box;
+					display: -webkit-flex;
+					display: -ms-flexbox;
+					display: flex;
+					-webkit-box-align: center;
+					-webkit-align-items: center;
+					-ms-flex-align: center;
+					align-items: center;
+					padding: .2rem .333333rem .2rem 0;
+					padding: 2vw 3.333333vw 2vw 0;
+					min-height: 1.466667rem;
+					min-height: 14.666667vw;
+					margin-left: .333333rem;
+					margin-left: 3.333333vw;
+					.cart-item-name
+						-webkit-box-flex: 5.5;
+						-webkit-flex: 5.5;
+						-ms-flex: 5.5;
+						flex: 5.5;
+						line-height: normal;
+						em
+							display: inline-block;
+							font-style: normal;
+							overflow: hidden;
+							text-overflow: ellipsis;
+							white-space: nowrap;
+							vertical-align: middle;
+							max-width: 4.666667rem;
+							max-width: 46.666667vw;
+					.cart-item-price
+						-webkit-box-flex: 2.5;
+						-webkit-flex: 2.5;
+						-ms-flex: 2.5;
+						flex: 2.5;
+						color: #f60;
+						text-align: right;
+						white-space: nowrap;
+						font-weight: 700;
+						.item-oldPrice
+							margin-right: .133333rem;
+							margin-right: 1.333333vw;
+							font-size: .266667rem;
+							color: #999;
+							font-weight: 400;
+							text-decoration line-through
+					.cart-item-opt
+						-webkit-box-flex: 3;
+						-webkit-flex: 3;
+						-ms-flex: 3;
+						flex: 3;
+						text-align: right;

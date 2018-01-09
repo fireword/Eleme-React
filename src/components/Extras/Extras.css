@@ -1,0 +1,138 @@
+.extra-info {
+  height: 100%;
+  overflow-y: auto;
+}
+.extra-info .info-container {
+  margin-bottom: 0.266667rem;
+  margin-bottom: 2.666667vw;
+  padding: 0.426667rem 0.4rem 0.4rem;
+  padding: 4.266667vw 4vw 4vw;
+  font-size: 0.346667rem;
+  background-color: #fff;
+  color: #666;
+  border-bottom: 1px solid #eee;
+}
+.extra-info .info-container .info-title {
+  color: #000;
+  font-weight: 700;
+  font-size: 0.4rem;
+  line-height: 0.56rem;
+  line-height: 5.6vw;
+}
+.extra-info .info-container .info-title.link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.extra-info .info-container .info-title.link svg {
+  width: 0.4rem;
+  width: 4vw;
+  height: 0.4rem;
+  height: 4vw;
+  fill: #ccc;
+  vertical-align: middle;
+}
+.extra-info .info-container .info-delivery {
+  margin-top: 0.426667rem;
+  margin-top: 4.266667vw;
+}
+.extra-info .info-container .info-delivery p {
+  margin-bottom: 0.186667rem;
+  margin-bottom: 1.866667vw;
+}
+.extra-info .info-container .info-activity {
+  margin-top: 0.426667rem;
+  margin-top: 4.266667vw;
+}
+.extra-info .info-container .info-activity li {
+  display: flex;
+  font-size: 0.346667rem;
+  margin-bottom: 0.306667rem;
+  margin-bottom: 3.066667vw;
+}
+.extra-info .info-container .info-activity li .act-icon {
+  margin-right: 0.16rem;
+  margin-right: 1.6vw;
+  margin-top: 0.04rem;
+  margin-top: 0.4vw;
+  font-size: 0.32rem;
+  font-style: normal;
+  padding: 0.053333rem 0.16rem;
+  padding: 0.533333vw 1.6vw;
+  height: 0.426667rem;
+  height: 4.266667vw;
+  line-height: 0.426667rem;
+  line-height: 4.266667vw;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0.026667rem;
+  border-radius: 0.266667vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.extra-info .info-container .info-activity li .act-txt {
+  font-size: 0.346667rem;
+  line-height: 1.38;
+  flex: 1;
+}
+.extra-info .info-container .info-shop li {
+  display: flex;
+  padding: 0.4rem 0.4rem 0.4rem 0;
+  padding: 4vw 4vw 4vw 0;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: -0.4rem;
+  margin-right: -4vw;
+  position: relative;
+}
+.extra-info .info-container .info-shop li:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  border-top: 1px solid #ddd;
+  transform: scaleY(0.5);
+}
+.extra-info .info-container .info-shop li:first-child:before {
+  display: none;
+}
+.extra-info .info-container .info-shop li:last-child {
+  padding-bottom: 0;
+}
+.extra-info .info-container .info-shop li .info-shop-title {
+  font-weight: 700;
+  color: #333;
+}
+.extra-info .info-container .info-shop li .info-shop-content {
+  max-width: 6.666667rem;
+  max-width: 66.666667vw;
+  text-align: right;
+}
+.extra-info .info-container .info-shop li .info-shop-content svg {
+  width: 0.4rem;
+  width: 4vw;
+  height: 0.4rem;
+  height: 4vw;
+  fill: #ccc;
+  vertical-align: middle;
+}

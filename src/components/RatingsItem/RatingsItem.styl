@@ -1,0 +1,76 @@
+@import "../../util/util.styl";
+.ratings-list-item
+	padding: .4rem 0;
+	padding: 4vw 0;
+	display flex
+	position relative
+	&:after
+		setBottomLine(#ddd,0,0)
+	.rat-avatar
+		width: .8rem;
+		width: 8vw;
+		height: .8rem;
+		height: 8vw;
+		img
+			width: .8rem;
+			width: 8vw;
+			height: .8rem;
+			height: 8vw;
+			border-radius: 50%;
+	.rat-detail
+		flex 1
+		margin-left .4rem
+		margin-left 4vw
+		font-size: .346667rem;
+		.rat-name
+			display flex
+			align-items center
+			font-size: .346667rem;
+			margin-top: 0;
+			color: #333;
+			span
+				font-size: .293333rem;
+				color: #bbb;
+				margin-left: .16rem;
+				margin-left: 1.6vw;
+		.rat-star
+			.rat-star-wrapper
+				display inline-block
+			span
+				font-size: .266667rem;
+				color: #999;
+				vertical-align: middle;
+		.rat-msg
+			color: #333;
+			font-size: .373333rem;
+			margin: .213333rem 0;
+			margin: 2.133333vw 0;
+		.rat-pic
+			.rat-pic-item
+				display: inline-block;
+				margin: .133333rem;
+				margin: 1.333333vw;
+				img
+					width: 1.893333rem;
+					width: 18.933333vw;
+					height: 1.893333rem;
+					height: 18.933333vw;
+		.rat-tags
+			.rat-tag
+				display: inline-block;
+				font-size: .293333rem;
+				color: #6d7885;
+				border: 1px solid #eee;
+				padding: .106667rem .266667rem;
+				padding: 1.066667vw 2.666667vw;
+				margin: .093333rem;
+				margin: .933333vw;
+				border-radius: .053333rem;
+				border-radius: .533333vw;
+				max-width: 1.6rem;
+				max-width: 16vw;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				box-sizing content-box
+	
